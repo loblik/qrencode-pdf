@@ -25,8 +25,6 @@ qr_bit_size=4
 height=842
 width=585
 
-number=30
-
 generate_qr_stream() {
   qr=$(qrencode -m0 -t ascii "WIFI:T:WPA;S:$ssid;P:$password;;")
 
